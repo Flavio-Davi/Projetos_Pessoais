@@ -1,0 +1,6 @@
+Gerador de senhas aleatórias com interface gráfica e POO.
+
+Bibliotecas utilizadas: Customtkinter, Tkinter, random e string.
+
+
+https://github.com/user-attachments/assets/eea10e07-b828-4561-bea6-c0d1aee26ab3
