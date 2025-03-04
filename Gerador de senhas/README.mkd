@@ -3,4 +3,4 @@ Gerador de senhas aleatórias com interface gráfica e POO.
 Bibliotecas utilizadas: Customtkinter, Tkinter, random e string.
 
 
-<img src="/Projetos_Pessoais/Gerador de senhas/Demonstrativo.gif">
+<img src="/Gerador de senhas/Demonstrativo.gif">
