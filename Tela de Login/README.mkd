@@ -1,0 +1,30 @@
+# 🔐 Login Application with CustomTkinter 🖥️
+
+Desenvolvido com o intuito de estudar e entender melhor a biblioteca Custontkinter do Python.
+---
+
+## 🚀 Funcionalidades
+
+- 🧑‍💻 **Autenticação de Usuário**: Verificação de usuário e senha com retornos dinâmicos.
+- 🎨 **Interface Customizável**: Feito com o **CustomTkinter** para uma GUI moderna.
+- 📦 **Gerenciamento de Dependências**: Configurado para fácil instalação com `requirements.txt`.
+- 💬 **Mensagens de Feedback**: Integração com **CTkMessagebox** para mensagens personalizadas.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.10+**
+- **CustomTkinter**
+- **Pillow** (Manipulação de imagens)
+- **CTkMessagebox** (Exibição de mensagens dinâmicas)
+- **Pandas** (Gestão de dados)
+
+---
+
+## 📋 Pré-requisitos
+
+1. Certifique-se de ter o Python instalado. Baixe em [python.org](https://www.python.org/).
+2. Instale as dependências do projeto:
+   ```bash
+   pip install -r requirements.txt
