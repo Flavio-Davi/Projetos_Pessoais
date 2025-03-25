@@ -2,6 +2,7 @@ import customtkinter as ctk
 from PIL import Image
 from CTkMessagebox import CTkMessagebox
 from validarUsuario import checkUser
+from register import register
 
 screen = ctk.CTk()
 
@@ -11,6 +12,7 @@ class login():
         self.home()
         self.frameLogin()
         self.entryData()
+        self.retryPassword()
         screen.mainloop()
 
 
@@ -23,7 +25,7 @@ class login():
     def frameLogin(self):
         self.frame = ctk.CTkFrame(screen)
         self.frame.place(relx=0.06, rely=0.02, relwidth=0.87, relheight=0.94)
-        img = ctk.CTkImage(Image.open("./avatar_login.png"), size=(80, 80))
+        img = ctk.CTkImage(Image.open("./avatar_login.png"), size=(70, 70))
         img_view = ctk.CTkLabel(self.frame, image=img, text="")
         img_view.place(relx=0.35, rely=0.01, relwidth=0.25, relheight=0.30)
 
@@ -55,8 +57,13 @@ class login():
         buttonShowPassword = ctk.CTkCheckBox(self.frame, text="Mostrar senha", checkbox_width=13, checkbox_height=13, 
                                              width=15, height=15,corner_radius=25, border_width=1, command=self.showPassword)
         buttonShowPassword.place(relx=0.12, rely=0.55, relwidth=0.50, relheight=0.08)
+        
         buttonGo = ctk.CTkButton(self.frame, text="Entrar", command=self.validateUser)
         buttonGo.place(relx=0.26, rely=0.77, relwidth=0.45, relheight=0.08)
 
+
+    def buttonRegister(self):
+        buttonRetry = ctk.CTkButton(self.screen, text="Cadastre-se", corner_radius=12, command=register)
+        buttonRetry.place(relx=0.27, rely=0.83, relwidth=0.42, relheight=0.06)
 
 login()
